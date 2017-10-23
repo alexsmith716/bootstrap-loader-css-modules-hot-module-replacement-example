@@ -3523,19 +3523,19 @@ var _Jumbotron = __webpack_require__(34);
 
 var _Jumbotron2 = _interopRequireDefault(_Jumbotron);
 
-var _GlyphIcons = __webpack_require__(36);
+var _GlyphIcons = __webpack_require__(37);
 
 var _GlyphIcons2 = _interopRequireDefault(_GlyphIcons);
 
-var _FontAwesomeIcons = __webpack_require__(38);
+var _FontAwesomeIcons = __webpack_require__(39);
 
 var _FontAwesomeIcons2 = _interopRequireDefault(_FontAwesomeIcons);
 
-var _CardColumns = __webpack_require__(40);
+var _CardColumns = __webpack_require__(41);
 
 var _CardColumns2 = _interopRequireDefault(_CardColumns);
 
-var _Layout = __webpack_require__(42);
+var _Layout = __webpack_require__(43);
 
 var _Layout2 = _interopRequireDefault(_Layout);
 
@@ -3596,6 +3596,10 @@ var _Jumbotron = __webpack_require__(35);
 
 var _Jumbotron2 = _interopRequireDefault(_Jumbotron);
 
+var _style = __webpack_require__(36);
+
+var _style2 = _interopRequireDefault(_style);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -3640,6 +3644,11 @@ var Jumbotron = function (_React$Component) {
           ),
           _react2.default.createElement(
             'p',
+            { className: _style2.default.colorMarginStyle },
+            'Test here CSS styles.colorMarginStyle.'
+          ),
+          _react2.default.createElement(
+            'p',
             { className: 'lead' },
             _react2.default.createElement(
               'a',
@@ -3666,6 +3675,13 @@ module.exports = {"grayText":"Jumbotron__grayText__3y1ff"};
 
 /***/ }),
 /* 36 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+module.exports = {"colorMarginStyle":"style__colorMarginStyle__3I597"};
+
+/***/ }),
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3681,7 +3697,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _GlyphIcons = __webpack_require__(37);
+var _GlyphIcons = __webpack_require__(38);
 
 var _GlyphIcons2 = _interopRequireDefault(_GlyphIcons);
 
@@ -3757,14 +3773,14 @@ var GlyphIcons = function (_React$Component) {
 exports.default = GlyphIcons;
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"colItems":"GlyphIcons__colItems__3RLgl","colItem":"GlyphIcons__colItem__38JNw","text":"GlyphIcons__text__28RyA"};
 
 /***/ }),
-/* 38 */
+/* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3780,7 +3796,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _FontAwesomeIcons = __webpack_require__(39);
+var _FontAwesomeIcons = __webpack_require__(40);
 
 var _FontAwesomeIcons2 = _interopRequireDefault(_FontAwesomeIcons);
 
@@ -3861,14 +3877,14 @@ var FontAwesomeIcons = function (_React$Component) {
 exports.default = FontAwesomeIcons;
 
 /***/ }),
-/* 39 */
+/* 40 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"colItems":"FontAwesomeIcons__colItems__1-Jge","colItem":"FontAwesomeIcons__colItem__2223W","text":"FontAwesomeIcons__text__3uons"};
 
 /***/ }),
-/* 40 */
+/* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3884,7 +3900,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _CardColumns = __webpack_require__(41);
+var _CardColumns = __webpack_require__(42);
 
 var _CardColumns2 = _interopRequireDefault(_CardColumns);
 
@@ -4129,14 +4145,14 @@ var CardColumns = function (_React$Component) {
 exports.default = CardColumns;
 
 /***/ }),
-/* 41 */
+/* 42 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 module.exports = {"pinkCard":"CardColumns__pinkCard__3X4TR"};
 
 /***/ }),
-/* 42 */
+/* 43 */
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
