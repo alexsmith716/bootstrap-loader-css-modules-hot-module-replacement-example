@@ -36,11 +36,6 @@ module.exports = {
         NODE_ENV: JSON.stringify('production'),
       },
     }),
-    new webpack.ProvidePlugin({
-      'window.Tether': 'tether',
-      $: "jquery",
-      jQuery: "jquery"
-    }),
     new webpack.LoaderOptionsPlugin({
       postcss: [autoprefixer],
     }),
@@ -57,17 +52,14 @@ module.exports = {
         test: /\.css$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]' +
-          '!postcss-loader',
+          use: 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]__[hash:base64:5]' + '!postcss-loader',
         }),
       },
       {
         test: /\.scss$/,
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
-          use: 'css-loader?modules&importLoaders=2&localIdentName=[name]__[local]__[hash:base64:5]' +
-            '!postcss-loader' +
-          '!sass-loader',
+          use: 'css-loader?modules&importLoaders=2&localIdentName=[name]__[local]__[hash:base64:5]' + '!postcss-loader' + '!sass-loader',
         }),
       },
 

@@ -8362,8 +8362,18 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+body {
+  padding-top: 5rem;
 }.Jumbotron__grayText__3y1ff {
   color: #999; }
+
+.style__colorMarginStyle__3I597 {
+  margin-top: 30px;
+  color: #009900;
+  border: 3px solid #990099;
+}
 .GlyphIcons__colItems__3RLgl {
   margin: 70px 0; }
   .GlyphIcons__colItems__3RLgl .GlyphIcons__colItem__38JNw {

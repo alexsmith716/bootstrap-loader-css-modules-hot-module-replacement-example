@@ -11,28 +11,6 @@ const devBuildConfig = require('./webpack.dev.config');
 
 console.log('>>>> server.dev > devBuildConfig <<<<: ', devBuildConfig);
 
-/*
-{ entry: 
-   [ 'webpack-hot-middleware/client',
-     'tether',
-     'font-awesome-loader',
-     'bootstrap-loader/lib/bootstrap.loader?configFilePath=/Users/robertsnith/Documents/PDFs9/css-modules/./.bootstraprc!bootstrap-loader/no-op.js',
-     './app/startup/App' ],
-  output: 
-   { path: '/Users/robertsnith/Documents/PDFs9/css-modules/public/assets',
-     filename: 'app.js',
-     publicPath: '/assets/' },
-  devtool: '#cheap-module-eval-source-map',
-  resolve: { extensions: [ '*', '.js', '.jsx' ] },
-  plugins: 
-   [ HotModuleReplacementPlugin { multiStep: undefined, fullBuildTimeout: 200 },
-     NoEmitOnErrorsPlugin {},
-     ProvidePlugin { definitions: [Object] },
-     LoaderOptionsPlugin { options: [Object] } ],
-  module: { rules: [ [Object], [Object], [Object], [Object], [Object] ] } 
-}
-*/
-
 const IP = process.env.IP || 'localhost';
 const PORT = process.env.PORT || 4000;
 

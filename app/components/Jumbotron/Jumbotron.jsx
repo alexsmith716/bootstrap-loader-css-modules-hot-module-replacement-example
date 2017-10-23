@@ -1,6 +1,7 @@
 import React from 'react';
 
 import css from './Jumbotron.scss';
+import style from './style.css';
 
 export default class Jumbotron extends React.Component {
 
@@ -22,6 +23,9 @@ export default class Jumbotron extends React.Component {
             It uses utility classes for typography
             and spacing to space content out
             within the larger container.
+          </p>
+          <p className={style.colorMarginStyle}>
+            Test here CSS styles.colorMarginStyle.
           </p>
           <p className="lead">
             <a className="btn btn-primary btn-lg" href="#deadlink">
